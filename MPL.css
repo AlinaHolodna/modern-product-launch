@@ -413,3 +413,82 @@ p.number {
     letter-spacing: -0.003em;
     color: #485C11;
 }
+
+/*how-to*/
+.how-to-wrapper {
+    padding: 80px 0 100px 0;
+    border-top: 1px solid #E5E5E5;
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.how-to-top {
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+
+    padding: 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.lockup {
+    width: 100%;
+    max-width: 343px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+
+    scrollbar-width: none;
+}
+
+.lockup-card {
+    flex: 0 0 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lockup-card p {
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.5%;
+    color: #6F6F6F;
+    text-align: left;
+}
+
+.lockup-card .card-number {
+    font-family: 'DM Sans';
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: -4%;
+    color: #929292;
+}
+
+.lockup-card h3 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -3%;
+}
+
+.how-to img {
+    display: block;
+
+    max-width: 100%;
+    width: 343px;
+    height: 600px;
+
+    border-radius: 30px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
