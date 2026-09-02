@@ -38,7 +38,11 @@
                 <div class="container">
                     <div class="hero-wrapper">
                         <h1>Browse everything.</h1>
-                        <img src="img/Breakpoint=Mobile.jpg" alt="Breakpoint=Mobile">
+                        <picture class="hero-image">
+                            <source media="(min-width: 1280px)" srcset="img/Breakpoint=Desktop.jpg">
+                            <source media="(min-width: 800px)" srcset="img/Breakpoint=Tablet.jpg">
+                            <img src="img/Breakpoint=Mobile.jpg" alt="BreakpointMobile">
+                        </picture>
                     </div>
                 </div>
             </section>
