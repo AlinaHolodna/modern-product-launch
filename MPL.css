@@ -835,6 +835,38 @@ p.number {
     .position {
     font-size: 11px;
     }
+
+/*how-to*/
+    .how-to-wrapper {
+    padding-bottom: 120px;
+    }
+
+    .how-to-top {
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .how-to-top h2 {
+    font-size: 54px;
+    line-height: 95%;
+    }
+
+    .lockup {
+    width: 100%;
+    max-width: 720px;
+    }
+
+    .lockup-card .card-number {
+    font-size: 80px;
+    }
+
+    .how-to img {
+    width: 720px;
+    height: 665px;
+    }
 }
 
 
@@ -956,11 +988,8 @@ p.number {
     column-gap: 20px;
     align-items: start;
 
-    padding-top: 0;
+    padding: 0 0 120px;
     border-top: none;
-
-    padding-right: 0;
-    padding-bottom: 120px;
     }
     
     .testimonial img {
@@ -982,5 +1011,52 @@ p.number {
 
     .position {
     font-size: 12px;
+    }
+
+/*how-to*/
+    .how-to-wrapper {
+    padding-bottom: 120px;
+    }
+
+    .how-to-top {
+    width: 1280px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    .how-to-top h2 {
+    font-size: 60px;
+    line-height: 90%;
+    }
+
+    .lockup {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .lockup-card {
+    flex: 0 0 387px;
+    display: flex;
+    gap: 60px;
+    }
+
+    .card-content {
+    width: 357px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+    .lockup-card .card-number {
+    font-size: 80px;
+    }
+
+    .how-to img {
+    width: 1200px;
+    height: 665px;
     }
 }
