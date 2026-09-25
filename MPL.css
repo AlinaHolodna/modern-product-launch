@@ -64,7 +64,7 @@ nav {
     background-color: #DFECC6;
 }
 
-/* layoute */
+/* layout */
 .container {
     width: 100%;
     max-width: 1280px;
@@ -102,7 +102,7 @@ header .logo {
     font-size: 30px;
     font-weight: 500;
     line-height: 120%;
-    letter-spacing: --0.08em;
+    letter-spacing: -0.08em;
 }
 
 /* hero */
@@ -116,7 +116,7 @@ header .logo {
     padding-bottom: 7px;
 }
 
-/*logocluod*/
+/*logo cluod*/
 .logocloud-wrapper {
     display: flex;
     flex-direction: column;
@@ -138,10 +138,6 @@ header .logo {
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
 }
-
-/*.logo-row {
-    display: contents;
-}*/
 
 .logo-row img {
     width: 110px;
@@ -544,7 +540,6 @@ p.number {
 }
 
 /*contact*/
-
 .contact-wrapper {
     padding-top: 120px;
     padding-bottom: 80px;
@@ -691,16 +686,6 @@ p.number {
 
     .button.header-button {
     display: flex;
-
-    background-color: #485C11;
-    line-height: 140%;
-    font-weight: 500;
-    letter-spacing: -2.5%;
-    color: #FFFFFF;
-
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
     margin-bottom: 0;
 }
 
@@ -719,7 +704,7 @@ p.number {
     padding-bottom: 0;
     }
 
-    /*footer*/
+/*footer*/
     .footer--desktop {
         display: block;
     }
@@ -751,7 +736,7 @@ p.number {
     letter-spacing: -1%;
     }
 
-/*logocloud*/
+/*logo cloud*/
     .logo-row-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -816,6 +801,41 @@ p.number {
     max-width: 720px;
     height: 744px;
 }
+
+/*specification*/
+    .specification-top {
+    max-width: 800px;
+    display: flex;
+    gap: 40px;
+    padding: 80px;
+    border-bottom: none;
+    }
+
+    .specification h2 {
+    font-size: 54px;
+    }
+
+    .specification p {
+    max-width: 560px;
+    }
+
+    .specification-top .button {
+    margin-bottom: 0;
+    }
+
+    .comparison {
+    max-width: 800px;
+    padding:  2px;
+    }
+
+    .comparison-column {
+    width: 239px;
+    }
+
+    .comparison-content {
+    font-size: 11px;
+    }
+
 /*testimonial*/
     .testimonial-wrapper {
     padding-right: 0;
@@ -907,7 +927,7 @@ p.number {
     letter-spacing: -1%;
     }
 
-/*logocloud*/
+/*logo cloud*/
     .logo-row-list {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -1000,6 +1020,41 @@ p.number {
     margin: 0;
     }
 
+
+/*specification*/
+    .specification-top {
+    max-width: 1280px;
+    display: flex;
+    gap: 40px;
+    padding: 80px 240px;
+    border-bottom: none;
+    }
+
+    .specification h2 {
+    font-size: 60px;
+    }
+
+    .specification p {
+    max-width: 720px;
+    }
+
+    .specification-top .button {
+    margin-bottom: 0;
+    }
+
+    .comparison {
+    max-width: 1280px;
+    padding: 0;
+    }
+
+    .comparison-column {
+    width: 400px;
+    }
+
+    .comparison-content {
+    font-size: 12px;
+    }
+
 /*testimonial*/
     .testimonial-wrapper {
     display: grid;
@@ -1065,9 +1120,6 @@ p.number {
 
     .card-content {
     width: 357px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
     .lockup-card .card-number {
