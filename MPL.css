@@ -565,6 +565,7 @@ p.number {
 .contact-content h2 {
     text-align: center;
 }
+
 .contact-content p {
     font-family: 'DM Sans';
     font-size: 15px;
@@ -867,6 +868,24 @@ p.number {
     width: 720px;
     height: 665px;
     }
+
+/*contact*/
+    .contact-wrapper {
+    padding: 120px 100px;
+    border-bottom: none;
+    }
+
+    .contact-content h2 {
+    font-size: 54px;
+    }
+
+    .contact-content p {
+    max-width: 520px;
+    }
+
+    .contact-content .button {
+    margin-bottom: 0;
+    }
 }
 
 
@@ -1058,5 +1077,23 @@ p.number {
     .how-to img {
     width: 1200px;
     height: 665px;
+    }
+
+/*contact*/
+    .contact-wrapper {
+    padding: 120px 300px;
+    border-bottom: none;
+    }
+
+    .contact-content h2 {
+    font-size: 60px;
+    }
+
+    .contact-content p {
+    max-width: 600px;
+    }
+
+    .contact-content .button {
+    margin-bottom: 0;
     }
 }
